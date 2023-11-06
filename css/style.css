@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 1rem;
+
+	background: black;
+}
+
+.timer {
+	display: inline-block;
+
+	padding: 0.8rem;
+
+	border-radius: 10px;
+
+	background: whitesmoke;
+
+	font-family: "Azeret Mono", sans-serif;
+	font-size: 2.2rem;
+}
+
+button {
+	width: 2.6rem;
+	height: 2.6rem;
+
+	border: none;
+	border-radius: 50%;
+
+	color: white;
+
+	cursor: pointer;
+}
+
+button:nth-child(odd) {
+	margin-left: 0.4rem;
+}
+
+.start {
+	background: olivedrab;
+}
+
+.stop {
+	background: darkred;
+}
+
+.reset {
+	background: darkslateblue;
+}
+
+span {
+	display: inline-block;
+}
